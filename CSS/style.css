@@ -1,0 +1,140 @@
+
+
+/* .phone{
+    background-color: #fff !important;
+    height: 100% !important;
+}
+.card-deck{
+    margin: 0;
+    padding: 0;
+}
+.butt{
+  text-align: center !important;
+  
+    
+}
+
+ul{
+    display: inline;
+} */
+.foot{
+    height: 20vh!important;
+    color: white !important;
+}
+.foot2{
+    color: black !important;
+}
+.bars .click::after{
+	content: '';
+	width:0;
+	height: 2px;
+	background: red;
+	display: block;
+    margin: auto;
+	transition: .5s;
+}
+.bars .click:hover::after{
+	width: 100%;
+}
+.serve{
+    font-family: elephant;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.services{
+    background-color: whitesmoke;
+    width: auto;
+}
+
+.card-play{
+    box-shadow: 1px 3px 7px #999;
+    transition: all.4s;
+}
+.card-play:hover{
+    background-color: black  !important;
+    color: white !important;
+    box-shadow: 1px 5px 17px #99a;
+    transform: translateY(5px)
+}
+.v-header{
+    position: relative;
+    height: 90vh;
+}
+.videoBG{
+position: absolute;
+opacity: 0.7 !important;
+width: 100%;
+height: auto; 
+}
+.overlay{
+    position: absolute;
+    
+}
+.lorem{
+    margin-top: 30px; 
+    color: black; 
+    font-size: 20px;
+}
+.dem{
+    opacity:0.8 !important;
+ width: 300vh !important;
+ height: 50vh !important;
+}
+.imag2{
+    border-radius: 100% !important;
+}
+.deem{
+    opacity:0.7 !important;
+}
+
+
+
+@media screen and (max-width: 760px){
+.overlay{
+    margin-top: 2px;
+    position: absolute;
+}
+.v-header{
+    position: relative;
+    height: 90vh;
+}
+.videoBG{
+position: absolute;
+opacity: 0.7 !important;
+width: 100%;
+height: auto; 
+}
+.lorem{
+    margin-top: 2px; 
+    color: black; 
+    font-size: 15px;
+}
+}
+@media screen and (max-width: 577px){
+.v-header{
+    margin-top: 2px;
+}
+.deem{
+    margin-top: -22px !important;
+    font-size: 10px;
+}
+}
+@media screen and (max-width: 480px){
+    .v-header{
+        margin-top: 2px;
+    }
+    .lorem{
+      display: none !important;
+    }
+    .learn{
+        display: none;
+    }
+    }
+
+.cols{
+    margin: auto !important;
+}
+.sarv{
+    margin: auto !important;
+}

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <!-- nav bar -->
+        <section>
+            <nav class="navbar navbar-expand-md navbar-light">
+                <button class="navbar-toggler ml-auto mb-2 bg-light" type="button" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <div class="container-fluid">
+                        <div class="row"> 
+                            <!-- the side bar -->
+                            <div class="col-xl-2 col-lg-3 col-md-4 sidebar fixed-top">
+                                <a href="index.html" class="navbar-brand text-white d-block  py-3 mb-4 bottom-border">
+                                    <img src="./img/logo1.png" width="50%" class="rounded-circle" >
+                                </a>
+                                <!-- <div class="bottom-border pb-3">
+                                    <img src="./img/freepik1.jpg" width="50" class="rounded-circle">
+                                    <a href="#" class="text-white">Collape</a>
+                                </div> -->
+                                <ul class="navbar-nav flex-column  mt-4">
+                                    <li class="nav-item"><a href="index.html" class="nav-link text-white p-3 mb-3 sidebar-link"><i class="fa fa-home text-light fa-lg mr-3"></i>Dashboard</a></li>
+                                </ul>
+                                <ul class="navbar-nav flex-column  mt-3">
+                                    <li class="nav-item"><a href="index1.html" class="nav-link text-white p-3 mb-3 current"><i class="fa fa-mobile text-light mr-3 fa-lg"></i>Product</a></li>
+                                </ul>
+                                <ul class="navbar-nav flex-column mt-3">
+                                    <li class="nav-item"><a href="index91.html" class="nav-link text-white p-3 mb-3 sidebar-link"><i class="fa fa-users text-light mr-3 fa-lg"></i>Team</a></li>
+                                </ul>
+                                <ul class="navbar-nav flex-column mt-3">
+                                    <li class="nav-item "><a href="index92.html" class="nav-link text-white p-3 mb-3 sidebar-link"><i class="fa fa-shopping-cart text-light mr-3 fa-lg"></i>Services</a></li>
+                                </ul>
+                                <ul class="navbar-nav flex-column  mt-3">
+                                    <li class="nav-item"><a href="index93.html" class="nav-link text-white p-3 mb-3 sidebar-link"><i class="fa fa-phone text-light mr-3 fa-lg"></i>Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <!-- end of side bar -->
+
+
+                            <!-- the top nav -->
+                            <div class="col-xl-10 col-lg-9 col-md-8 ml-auto bg-dark fixed-top py-2 top-navbar">
+                                <div class="row align-item-center blue-seal">
+                                    <div class="col-md-4">
+                                        <h4 class="text-light text-uppercase mb-0">Dashboard</h4>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <form>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control search-input" placeholder="search">
+                                                <button type="button" class="btn btn-white search-btn"><i class="fa fa-search text-danger "></i></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item icon-parent"><a href="#" class="nav-link icon-bullet"><i class="fa fa-comments text-muted fa-lg"></i></a></li>
+                                            <li class="nav-item icon-parent"><a href="#" class="nav-link icon-bullet"><i class="fa fa-bell text-muted fa-lg"></i></a></li>
+                                            <li class="nav-item ml-md-auto"><a href="#" class="nav-link" data-toggle="modal" data-target="#sign-out"><i class="fa fa-sign-out fa-lg text-danger "></i> </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- the end of top nav -->
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- the  end of nav bar -->
+        <!-- the modal section -->
+        <section>
+            <div class="modal fade" id="sign-out">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="modal-title">want to leave?</div>
+                            <button type="button" class="close" data-dismiss="modal">&times;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Press logout to leave
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal ">Stay Here</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal ">Log-out</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of modal section -->
+        <!-- the main section -->
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-10 col-lg-9 ml-auto">
+                        <div class="row pt-5 mt-3 mb-5">
+                            <div class="col-xl-3 col-sm-6  p-2">
+                                <div class="card  card-common mb-3" style="max-width: 540px;">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4">
+                                            <img src="./img/download (3).jpg" class="card-img" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5>Tecno Camon 15 Air</h5>
+                                                <p> (CD6) 6.6" HD+(3GB RAM+64GB ROM,Android Q)(48MP+8MP) Camera</p>
+                                                <h3>$70,000</h3>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-sm-6 p-2">
+                                <div class="card  card-common mb-3" style="max-width: 540px;">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4">
+                                            <img src="./img/download (4).jpg" class="card-img" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5>Infinix S5Pro</h5>
+                                                <p>6.53" FHD+ Andriod-10, 32MP Front Camera (16MP+2MP+QVGA)AI Tripple Camera</p>
+                                                <h3>$89,000</h3>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-sm-6 p-2">
+                                <div class="card card-common mb-3" style="max-width: 540px;">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4">
+                                            <img src="./img/download (10).jpg" class="card-img" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5>Samsung Galaxy A10s</h5>
+                                                <p>6.2-inch (2gb,32gb ROM) Android 9.0, (13MP+2MP) 4000mAh Black</p>
+                                                <h3>$60,000</h3>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-sm-6 p-2">
+                                <div class="card card-common mb-3" style="max-width: 540px;">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4">
+                                            <img src="./img/iphone 11.jpg" class="card-img" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5>Apple IPhone 11 Pro Max</h5>
+                                                <p>6.5-Inch Super Retina XDR OLED(4GB RAM,64GB ROM),IOS13</p>
+                                                <h3>$570,000</h3>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of card -->
+        </section>
+        <!-- Table -->
+        <div class="container-fluid">
+           <div class="row mb-5">
+               <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+                   <div class="row align-item-center">
+                        <div class="col-xl-6 col-12 mb-4 mb-xl-0">
+                            <h3 class="text-muted text-center mb-3">Products</h3>
+                            <table class="table table-striped bg-light text-center table-responsive table-hover">
+                                <thead>
+                                    <tr class="text-muted">
+                                        <th>#</th>
+                                        <th>Device</th>
+                                        <th>Brand</th>
+                                        <th>Model</th>
+                                        <th>Price</th>
+                                        <TH>Detail</TH>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>1</th>
+                                        <td>Phone</td>
+                                        <td>APPLE</td>
+                                        <td>IPhone 11 Pro Max</td>
+                                        <td>$550,000</td>
+                                        <td><button type="button" class="btn btn-info btn-sm">Info</button></td>
+                                    </tr>
+                                    <tr>
+                                        <th>2</th>
+                                        <td>Phone</td>
+                                        <td>TECNO</td>
+                                        <td>Tecno camon 6 Air</td>
+                                        <td>$76,000</td>
+                                        <td><button type="button" class="btn btn-info btn-sm">Info</button></td>
+                                    </tr>
+                                    <tr>
+                                        <th>3</th>
+                                        <td>Earpiece</td>
+                                        <td>REDMI</td>
+                                        <td>AWE 12</td>
+                                        <td>$2,000</td>
+                                        <td><button type="button" class="btn btn-info btn-sm">Info</button></td>
+                                    </tr>
+                                    <tr>
+                                        <th>4</th>
+                                        <td>Charger</td>
+                                        <td>APPLE</td>
+                                        <td>IPhone 11 Pro Max</td>
+                                        <td>$50,000</td>
+                                        <td><button type="button" class="btn btn-info btn-sm">Info</button></td>
+                                    </tr>
+                                    <tr>
+                                        <th>5</th>
+                                        <td>Phone</td>
+                                        <td>SAMSUNG</td>
+                                        <td>Samsung Galaxy 11</td>
+                                        <td>$55,000</td>
+                                        <td><button type="button" class="btn btn-info btn-sm">Info</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- pagination -->
+                            <nav>
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            <span>&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item active">
+                                        <a href="#" class="page-link py-2 px-3">
+                                           1</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            2</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            <span>&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!-- end of pagination -->
+                        </div>
+                                <!-- rating -->
+                        
+                        <div class="col-xl-6 col-12">
+                            <div class="bg-dark  text-white p-4 rounded">
+                                <h3 class="text-muted text-center mb-3">Rating</h3>
+                                    <h6 class="mb-3">Google Chrome</h6>
+                                    <div class="progress mb-3" style="height:20px ">
+                                        <div class="progress-bar progress-bar-striped font-weight-bold " style="width: 91%;">
+                                         91%
+                                        </div>
+                                    </div>
+                                    <h6 class="mb-3">Mozilla Firefox</h6>
+                                    <div class="progress mb-3" style="height:20px">
+                                        <div class="progress-bar progress-bar-striped font-weight-bold bg-success" style="width: 82%;">
+                                        82%
+                                        </div>
+                                    </div>
+                                    <h6 class="mb-3">Safari</h6>
+                                    <div class="progress mb-3" style="height: 20px">
+                                        <div class="progress-bar progress-bar-striped font-weight-bold bg-info" style="width: 61%;">
+                                         61%
+                                        </div>
+                                    </div>
+                                    <h6 class="mb-3">Opera Mini</h6>
+                                    <div class="progress mb-3" style="height: 20px">
+                                        <div class="progress-bar progress-bar-striped font-weight-bold bg-warning" style="width: 49%;">
+                                         49%
+                                        </div>
+                                    </div>
+                                    <h6 class="mb-3">IE</h6>
+                                    <div class="progress mb-3" style="height: 20px">
+                                        <div class="progress-bar progress-bar-striped font-weight-bold bg-danger" style="width: 10%;">
+                                         10%
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                                <!-- end of rating -->
+
+                    </div>
+                </div>
+           </div> 
+        </div> 
+        <!-- end of Table -->
+        <!-- Activities/quick post -->
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+                        <div class="row align-item-center mb-5">
+                            <div class="col-xl-7">
+                                <h4 class="text-muted mb-4">Recent Customer Activities</h4>
+                                <div class="accordion">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <button class="btn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseOne">
+                                                <img src="./img/logo1.png" width="50" class="mr-3 rounded">
+                                                <span class="text-small">John posted a new comment</span>
+                                            </button>
+                                        </div>
+                                        <div class="collapse show" id="collapseOne" data-parent="#accordion">
+                                            <div class="card-body">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                                Illum error, nisi ea libero enim ad atque incidunt!
+                                                 Aperiam aliquid aut delectus earum inventore iusto, 
+                                                 nesciunt voluptate deserunt, perferendis, ratione mollitia!
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <button class="btn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseTwo">
+                                                <img src="./img/logo1.png" width="50" class="mr-3 rounded">
+                                                <span class="text-small">Joseph posted a new comment</span>
+                                            </button>
+                                        </div>
+                                        <div class="collapse" id="collapseTwo" data-parent="#accordion">
+                                            <div class="card-body">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                                Illum error, nisi ea libero enim ad atque incidunt!
+                                                 Aperiam aliquid aut delectus earum inventore iusto, 
+                                                 nesciunt voluptate deserunt, perferendis, ratione mollitia!
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <button class="btn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseThree">
+                                                <img src="./img/logo1.png" width="50" class="mr-3 rounded">
+                                                <span class="text-small">Emem posted a new comment</span>
+                                            </button>
+                                        </div>
+                                        <div class="collapse" id="collapseThree" data-parent="#accordion">
+                                            <div class="card-body">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                                Illum error, nisi ea libero enim ad atque incidunt!
+                                                 Aperiam aliquid aut delectus earum inventore iusto, 
+                                                 nesciunt voluptate deserunt, perferendis, ratione mollitia!
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <button class="btn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseFour">
+                                                <img src="./img/logo1.png" width="50" class="mr-3 rounded">
+                                                <span class="text-small">Richard posted a new comment</span>
+                                            </button>
+                                        </div>
+                                        <div class="collapse" id="collapseFour" data-parent="#accordion">
+                                            <div class="card-body">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                                Illum error, nisi ea libero enim ad atque incidunt!
+                                                 Aperiam aliquid aut delectus earum inventore iusto, 
+                                                 nesciunt voluptate deserunt, perferendis, ratione mollitia!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-5 mt-5">
+                                <div class="card rounded">
+                                    <div class="card-body">
+                                        <h5 class="text-muted text-center mb-4">Quick Status Post</h5>
+                                        <ul class="list-inline text-center py-3">
+                                            <li class="list-inline-item mr-4"><a href="#"><i class="fa fa-pencil text-success "></i>
+                                            <span class="h6 text-muted">Status</span></a>
+
+                                            </li>
+                                            <li class="list-inline-item mr-4"><a href="#"><i class="fa fa-camera text-info "></i>
+                                            <span class="h6 text-muted">Photo</span></a>
+
+                                            </li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-map-marker text-primary "></i>
+                                            <span class="h6 text-muted">Check-in</span></a>
+                                        </ul>
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control py-2 mb-3"  placeholder="What's Your Status...">
+                                                <BUtton type="button" class="btn btn-block text-uppercase FONT-WEIGHT-BOLD text-white bg-info py-2 mb-5 ">Submit Post</BUtton>
+                                            </div>
+                                            </div>
+                                        </form>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="card bg-light"><i class="fa fa-calendar fa-8x d-block m-auto py-3 text-warning"></i></div>
+                                                <div class="card-body"><i class=" fa fa-clock card-text text-center font-weight-bold text-uppercase">Mon, Aug 3</i></div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="card bg-light"><i class="fa fa-car fa-8x d-block m-auto py-3 text-danger"></i></div>
+                                                <div class="card-body"><p class="card-text text-center font-weight-bold text-uppercase">10am</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Activities/quick post -->
+        <!-- footer -->
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+                        <div class="row border-top pt-3">
+                            <div class="col-lg-6 text-center">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item mr-2 font-family-elephant">
+                                        <a href="#" class="text-dark">G3 Stack</a>
+                                    </li>
+                                    <li class="list-inline-item mr-2 font-family-elephant">
+                                        <a href="#" class="text-dark">About</a>
+                                    </li>
+                                    <li class="list-inline-item mr-2 font-family-elephant">
+                                        <a href="#" class="text-dark">Contact Us</a>
+                                    </li>
+                                    <li class="list-inline-item mr-2 font-family-elephant">
+                                        <a href="#" class="text-dark">Blog</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 text-center">
+                                <p>&copy; 2020 Copyright. Made <i class="fa fa-heart text-danger"></i>By <span class="text-success">G3Stack</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of footer -->
+        
+    </main>
+        <!-- the end of main section -->
+
+
+
+
+
+
+<!-- <link rel="stylesheet" href="bootstrap.min.js">  -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>  
+</body>
+</html>

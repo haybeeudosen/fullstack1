@@ -1,0 +1,54 @@
+/*navbar for About us and Contact us*/
+.navbar{
+    display: block;
+    background-color: black;
+    opacity: 70%;
+    margin-bottom: 10px;
+    
+}
+/*navbar for sign up page*/
+.formnav{
+    background-color: black;
+    opacity: 40%;
+
+}
+
+/*border radius for our team gallery on About Us page*/
+.card-img{
+    border-radius: 75% !important; 
+}
+
+/*styling for sign up page*/
+.form{
+    background-image: url(../img/gallery3.jpg);
+    background-size: cover;
+    color: white;
+}
+body{
+    margin: 0 !important
+}
+/*styling for our team*/
+.card{
+    background-color: none;
+    border: none !important;  
+}
+
+.cardhover:hover{
+    background-color: gray;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px
+}
+
+/*font-size for text on contact us page*/
+.address{
+    font-size: 20px;
+}
+
+/*Contact us styling*/
+.bgimg{
+    background-image: url(../img/gallery4.jpg);
+    background-size: cover;
+    opacity: 100%;
+    color: black;
+}
