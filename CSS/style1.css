@@ -91,7 +91,8 @@
 .card-common:hover{
     background-color: #444444  !important;
     box-shadow: 1px 5px 17px #99a;
-    transform: translateY(5px)
+    transform: translateY(5px);
+    color: #fff;
 }
 
 .text-small {
